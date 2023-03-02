@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link href="style.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+         
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+    </head>
+    <body>
+<div id="app">
+  <h1>Task App</h1>
+  
+  <!-- Form to input tasks -->
+  <form id="task-form">
+    <label for="task-name">Task Name:</label>
+    <input type="text" id="task-name" required>
+    
+    <label for="due-date">Due Date:</label>
+    <input type="date" id="due-date" required>
+    
+    <label for="task-description">Task Description:</label>
+    <textarea id="task-description" required></textarea>
+    
+    <button type="submit" id="submit">Add Task</button>
+  </form>
+  
+  <!-- Table to display tasks -->
+<div id="task-table">
+    <table id="task-row">
+    
+     
+    
+    </table>
+</div>  
+  
+</div>
+<script src ="script.js"></script>
+</body>
+</html>
